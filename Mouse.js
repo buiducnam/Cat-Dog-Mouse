@@ -5,4 +5,4 @@ function Mouse(name, age, weight) {
     this.dead = false;
 }
 
-module.export = Mouse;
+module.exports = Mouse;
