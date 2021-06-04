@@ -9,4 +9,8 @@ Horse.prototype.run = function(){
     console.log('Runing ....');
 }
 
+Horse.prototype.go = function(){
+    console.log('Go go go...');
+}
+
 module.exports = Horse;
