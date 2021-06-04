@@ -1,7 +1,6 @@
 const chalk = require('chalk');
-function Dog(name, age){
+function Dog(name){
     this.name = name;
-    this.age = age;
 }
 
 Dog.prototype.eat = function(){
